@@ -3,7 +3,7 @@ int Node::nextId_ = 0;
 
 Host::~Host(){
   // 호스트에 설치된 서비스 삭제
-  for(auto *service : services_){
+  for(Service *service : services_){
     delete service;
   }
 }

@@ -24,6 +24,7 @@ public:
   // 서비스의 포트값을 반환받음
   short get_port() const { return port_; }
 
+  virtual ~Service() {}
     
   // 서비스에서 생성한 패킷을 호스트에 전달
   virtual void send(Packet *packet) = 0;

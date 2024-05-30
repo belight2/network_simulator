@@ -19,6 +19,8 @@ private:
   }
 
 public:
+  ~EchoService() override {}
+  
   void send(Packet *packet) override;
 
   void receive(Packet *packet) override;

@@ -23,6 +23,8 @@ private:
     return "MessageService: received \""+message+"\" from "+src_address+":"+std::to_string(src_port);
   }
 public:
+  ~MessageService() override {}
+  
   // 메시지를 전송한다
   void send(std::string message);
 
