@@ -67,13 +67,13 @@ int main() {
     clients[i]->initialize();
     servers[i]->initialize();
   }
-
+  
   for (int x = 0; x < 3; x++) {
     for (size_t i = 0; i < messageServices.size(); i++) {
       messageServices[i]->send("Hello " + std::to_string(x));
     }
   }
-
+  
   for (int i = 0; i < COUNT; i++) {
     delete servers[i];
     delete clients[i];

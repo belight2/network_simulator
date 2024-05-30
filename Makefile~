@@ -31,4 +31,4 @@ second: second.o host.o router.o link.o echo_service.o message_service.o
 	$(CC) $(CFLAGS) -o second second.o host.o router.o link.o echo_service.o message_service.o
 
 clean:
-	del -f *.o first second
+	del -f *.o first

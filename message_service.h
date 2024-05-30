@@ -17,10 +17,18 @@ private:
   short destPort_;
   MessageService(Host *host, short port, Address destAddress, short destPort)
       : Service(host, port), destAddress_(destAddress), destPort_(destPort) {}
-
+  
+  // 받은 메시지를 출력한다.
+  std::string receive_info_message(std::string src_address, short src_port, std::string message){
+    return "MessageService: received \""+message+"\" from "+src_address+":"+std::to_string(src_port);
+  }
 public:
   // 메시지를 전송한다
   void send(std::string message);
+
+  void send(Packet *packet) override;
+
+  void receive(Packet *packet) override;
 };
 
 #endif
