@@ -46,6 +46,9 @@ public:
   // 호스트 생성자
   Host(Address address) : address_(address) {}
 
+  // 호스트 소멸자
+  ~Host() override;
+
   // 호스트와 설치된 서비스를 전부 초기화한다.
   void initialize();
 
@@ -54,15 +57,6 @@ public:
 
   // 수신한 패킷의 포트에 맞는 서비스를 찾아 서비스에 패킷을 전달한다.
   void receive(Packet *packet) override;
-
-  // // 디버그용 정보 출력 함수
-  // std::string toString(){
-  //   std::string info =  "Host #"+std::to_string(this->id())+"[Address: "+address().toString()+"serviceSize= "+std::to_string(service_size)+"]";
-  //   for(Service *service : services_){
-  //     // 서비스의 종류와 서비스의 포트 정보 info에 삽입
-  //   }
-  //   return info;
-  // }
 
 };
 

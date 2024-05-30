@@ -1,6 +1,12 @@
 #include "host.h"
 int Node::nextId_ = 0;
 
+Host::~Host(){
+  // 호스트에 설치된 서비스 삭제
+  for(auto *service : services_){
+    delete service;
+  }
+}
 void Host::initialize(){
   link_size = links.size();
   srand(time(nullptr));

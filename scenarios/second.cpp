@@ -14,6 +14,8 @@
 
 #define CLIENT_ADDRESS_START 456
 
+#include <crtdbg.h>
+
 int main() {
   std::vector<Host *> servers;
   std::vector<Host *> clients;
