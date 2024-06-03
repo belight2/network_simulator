@@ -1,0 +1,532 @@
+0.00s     0494<Host>                     sending packet: 0498<Packet>
+0.00s     1589<Link>                     packet in: 0498<Packet> from 0494<Host>
+0.00s     1589<Link>                     packet out: 0498<Packet> to 9445<ManualRouter>
+0.00s     9445<ManualRouter>             forwarding packet: 0498<Packet> to 3392<Link>
+0.00s     3392<Link>                     packet in: 0498<Packet> from 9445<ManualRouter>
+0.00s     3392<Link>                     packet out: 0498<Packet> to 6594<Host>
+0.00s     6594<Host>                     received packet: 0498<Packet>, forwarding to 8768<EchoService>
+0.00s     8768<EchoService>              received "Hello 0" from 456:1000, send reply with same data
+0.00s     6594<Host>                     sending packet: 1768<Packet>
+0.00s     3392<Link>                     packet in: 1768<Packet> from 6594<Host>
+0.00s     3392<Link>                     packet out: 1768<Packet> to 9445<ManualRouter>
+0.00s     9445<ManualRouter>             forwarding packet: 1768<Packet> to 1589<Link>
+0.00s     1589<Link>                     packet in: 1768<Packet> from 9445<ManualRouter>
+0.00s     1589<Link>                     packet out: 1768<Packet> to 0494<Host>
+0.00s     0494<Host>                     received packet: 1768<Packet>, forwarding to 2917<MessageService>
+0.00s     2917<MessageService>           received "Hello 0" from 123:3000
+1.00s     2872<Host>                     sending packet: 8389<Packet>
+1.00s     1866<Link>                     packet in: 8389<Packet> from 2872<Host>
+1.00s     1866<Link>                     packet out: 8389<Packet> to 9445<ManualRouter>
+1.00s     9445<ManualRouter>             forwarding packet: 8389<Packet> to 3392<Link>
+1.00s     3392<Link>                     packet in: 8389<Packet> from 9445<ManualRouter>
+1.00s     3392<Link>                     packet out: 8389<Packet> to 6594<Host>
+1.00s     6594<Host>                     received packet: 8389<Packet>, forwarding to 8768<EchoService>
+1.00s     8768<EchoService>              received "Hello 0" from 457:1000, send reply with same data
+1.00s     6594<Host>                     sending packet: 1455<Packet>
+1.00s     3392<Link>                     packet in: 1455<Packet> from 6594<Host>
+1.00s     3392<Link>                     packet out: 1455<Packet> to 9445<ManualRouter>
+1.00s     9445<ManualRouter>             forwarding packet: 1455<Packet> to 1866<Link>
+1.00s     1866<Link>                     packet in: 1455<Packet> from 9445<ManualRouter>
+1.00s     1866<Link>                     packet out: 1455<Packet> to 2872<Host>
+1.00s     2872<Host>                     received packet: 1455<Packet>, forwarding to 0922<MessageService>
+1.00s     0922<MessageService>           received "Hello 0" from 123:3000
+2.00s     4100<Host>                     sending packet: 1487<Packet>
+2.00s     5823<Link>                     packet in: 1487<Packet> from 4100<Host>
+2.00s     5823<Link>                     packet out: 1487<Packet> to 9445<ManualRouter>
+2.00s     9445<ManualRouter>             forwarding packet: 1487<Packet> to 3392<Link>
+2.00s     3392<Link>                     packet in: 1487<Packet> from 9445<ManualRouter>
+2.00s     3392<Link>                     packet out: 1487<Packet> to 6594<Host>
+2.00s     6594<Host>                     received packet: 1487<Packet>, forwarding to 8768<EchoService>
+2.00s     8768<EchoService>              received "Hello 0" from 458:1000, send reply with same data
+2.00s     6594<Host>                     sending packet: 3009<Packet>
+2.00s     3392<Link>                     packet in: 3009<Packet> from 6594<Host>
+2.00s     3392<Link>                     packet out: 3009<Packet> to 9445<ManualRouter>
+2.00s     9445<ManualRouter>             forwarding packet: 3009<Packet> to 5823<Link>
+2.00s     5823<Link>                     packet in: 3009<Packet> from 9445<ManualRouter>
+2.00s     5823<Link>                     packet out: 3009<Packet> to 4100<Host>
+2.00s     4100<Host>                     received packet: 3009<Packet>, forwarding to 1870<MessageService>
+2.00s     1870<MessageService>           received "Hello 0" from 123:3000
+3.00s     0494<Host>                     sending packet: 9709<Packet>
+3.00s     1589<Link>                     packet in: 9709<Packet> from 0494<Host>
+3.00s     1589<Link>                     packet out: 9709<Packet> to 9445<ManualRouter>
+3.00s     9445<ManualRouter>             forwarding packet: 9709<Packet> to 4504<Link>
+3.00s     4504<Link>                     packet in: 9709<Packet> from 9445<ManualRouter>
+3.00s     4504<Link>                     packet out: 9709<Packet> to 0227<Host>
+3.00s     0227<Host>                     received packet: 9709<Packet>, forwarding to 0615<EchoService>
+3.00s     0615<EchoService>              received "Hello 0" from 456:1001, send reply with same data
+3.00s     0227<Host>                     sending packet: 1216<Packet>
+3.00s     4504<Link>                     packet in: 1216<Packet> from 0227<Host>
+3.00s     4504<Link>                     packet out: 1216<Packet> to 9445<ManualRouter>
+3.00s     9445<ManualRouter>             forwarding packet: 1216<Packet> to 1589<Link>
+3.00s     1589<Link>                     packet in: 1216<Packet> from 9445<ManualRouter>
+3.00s     1589<Link>                     packet out: 1216<Packet> to 0494<Host>
+3.00s     0494<Host>                     received packet: 1216<Packet>, forwarding to 0044<MessageService>
+3.00s     0044<MessageService>           received "Hello 0" from 124:3000
+4.00s     2872<Host>                     sending packet: 9855<Packet>
+4.00s     1866<Link>                     packet in: 9855<Packet> from 2872<Host>
+4.00s     1866<Link>                     packet out: 9855<Packet> to 9445<ManualRouter>
+4.00s     9445<ManualRouter>             forwarding packet: 9855<Packet> to 4504<Link>
+4.00s     4504<Link>                     packet in: 9855<Packet> from 9445<ManualRouter>
+4.00s     4504<Link>                     packet out: 9855<Packet> to 0227<Host>
+4.00s     0227<Host>                     received packet: 9855<Packet>, forwarding to 0615<EchoService>
+4.00s     0615<EchoService>              received "Hello 0" from 457:1001, send reply with same data
+4.00s     0227<Host>                     sending packet: 1680<Packet>
+4.00s     4504<Link>                     packet in: 1680<Packet> from 0227<Host>
+4.00s     4504<Link>                     packet out: 1680<Packet> to 9445<ManualRouter>
+4.00s     9445<ManualRouter>             forwarding packet: 1680<Packet> to 1866<Link>
+4.00s     1866<Link>                     packet in: 1680<Packet> from 9445<ManualRouter>
+4.00s     1866<Link>                     packet out: 1680<Packet> to 2872<Host>
+4.00s     2872<Host>                     received packet: 1680<Packet>, forwarding to 9441<MessageService>
+4.00s     9441<MessageService>           received "Hello 0" from 124:3000
+5.00s     4100<Host>                     sending packet: 7615<Packet>
+5.00s     5823<Link>                     packet in: 7615<Packet> from 4100<Host>
+5.00s     5823<Link>                     packet out: 7615<Packet> to 9445<ManualRouter>
+5.00s     9445<ManualRouter>             forwarding packet: 7615<Packet> to 4504<Link>
+5.00s     4504<Link>                     packet in: 7615<Packet> from 9445<ManualRouter>
+5.00s     4504<Link>                     packet out: 7615<Packet> to 0227<Host>
+5.00s     0227<Host>                     received packet: 7615<Packet>, forwarding to 0615<EchoService>
+5.00s     0615<EchoService>              received "Hello 0" from 458:1001, send reply with same data
+5.00s     0227<Host>                     sending packet: 7956<Packet>
+5.00s     4504<Link>                     packet in: 7956<Packet> from 0227<Host>
+5.00s     4504<Link>                     packet out: 7956<Packet> to 9445<ManualRouter>
+5.00s     9445<ManualRouter>             forwarding packet: 7956<Packet> to 5823<Link>
+5.00s     5823<Link>                     packet in: 7956<Packet> from 9445<ManualRouter>
+5.00s     5823<Link>                     packet out: 7956<Packet> to 4100<Host>
+5.00s     4100<Host>                     received packet: 7956<Packet>, forwarding to 5574<MessageService>
+5.00s     5574<MessageService>           received "Hello 0" from 124:3000
+6.00s     0494<Host>                     sending packet: 3266<Packet>
+6.00s     1589<Link>                     packet in: 3266<Packet> from 0494<Host>
+6.00s     1589<Link>                     packet out: 3266<Packet> to 9445<ManualRouter>
+6.00s     9445<ManualRouter>             forwarding packet: 3266<Packet> to 5237<Link>
+6.00s     5237<Link>                     packet in: 3266<Packet> from 9445<ManualRouter>
+6.00s     5237<Link>                     packet out: 3266<Packet> to 3069<Host>
+6.00s     3069<Host>                     received packet: 3266<Packet>, forwarding to 1578<EchoService>
+6.00s     1578<EchoService>              received "Hello 0" from 456:1002, send reply with same data
+6.00s     3069<Host>                     sending packet: 1208<Packet>
+6.00s     5237<Link>                     packet in: 1208<Packet> from 3069<Host>
+6.00s     5237<Link>                     packet out: 1208<Packet> to 9445<ManualRouter>
+6.00s     9445<ManualRouter>             forwarding packet: 1208<Packet> to 1589<Link>
+6.00s     1589<Link>                     packet in: 1208<Packet> from 9445<ManualRouter>
+6.00s     1589<Link>                     packet out: 1208<Packet> to 0494<Host>
+6.00s     0494<Host>                     received packet: 1208<Packet>, forwarding to 4043<MessageService>
+6.00s     4043<MessageService>           received "Hello 0" from 125:3000
+7.00s     2872<Host>                     sending packet: 7772<Packet>
+7.00s     1866<Link>                     packet in: 7772<Packet> from 2872<Host>
+7.00s     1866<Link>                     packet out: 7772<Packet> to 9445<ManualRouter>
+7.00s     9445<ManualRouter>             forwarding packet: 7772<Packet> to 5237<Link>
+7.00s     5237<Link>                     packet in: 7772<Packet> from 9445<ManualRouter>
+7.00s     5237<Link>                     packet out: 7772<Packet> to 3069<Host>
+7.00s     3069<Host>                     received packet: 7772<Packet>, forwarding to 1578<EchoService>
+7.00s     1578<EchoService>              received "Hello 0" from 457:1002, send reply with same data
+7.00s     3069<Host>                     sending packet: 6080<Packet>
+7.00s     5237<Link>                     packet in: 6080<Packet> from 3069<Host>
+7.00s     5237<Link>                     packet out: 6080<Packet> to 9445<ManualRouter>
+7.00s     9445<ManualRouter>             forwarding packet: 6080<Packet> to 1866<Link>
+7.00s     1866<Link>                     packet in: 6080<Packet> from 9445<ManualRouter>
+7.00s     1866<Link>                     packet out: 6080<Packet> to 2872<Host>
+7.00s     2872<Host>                     received packet: 6080<Packet>, forwarding to 0613<MessageService>
+7.00s     0613<MessageService>           received "Hello 0" from 125:3000
+8.00s     4100<Host>                     sending packet: 7913<Packet>
+8.00s     5823<Link>                     packet in: 7913<Packet> from 4100<Host>
+8.00s     5823<Link>                     packet out: 7913<Packet> to 9445<ManualRouter>
+8.00s     9445<ManualRouter>             forwarding packet: 7913<Packet> to 5237<Link>
+8.00s     5237<Link>                     packet in: 7913<Packet> from 9445<ManualRouter>
+8.00s     5237<Link>                     packet out: 7913<Packet> to 3069<Host>
+8.00s     3069<Host>                     received packet: 7913<Packet>, forwarding to 1578<EchoService>
+8.00s     1578<EchoService>              received "Hello 0" from 458:1002, send reply with same data
+8.00s     3069<Host>                     sending packet: 4641<Packet>
+8.00s     5237<Link>                     packet in: 4641<Packet> from 3069<Host>
+8.00s     5237<Link>                     packet out: 4641<Packet> to 9445<ManualRouter>
+8.00s     9445<ManualRouter>             forwarding packet: 4641<Packet> to 5823<Link>
+8.00s     5823<Link>                     packet in: 4641<Packet> from 9445<ManualRouter>
+8.00s     5823<Link>                     packet out: 4641<Packet> to 4100<Host>
+8.00s     4100<Host>                     received packet: 4641<Packet>, forwarding to 5772<MessageService>
+8.00s     5772<MessageService>           received "Hello 0" from 125:3000
+9.00s     0494<Host>                     sending packet: 8025<Packet>
+9.00s     1589<Link>                     packet in: 8025<Packet> from 0494<Host>
+9.00s     1589<Link>                     packet out: 8025<Packet> to 9445<ManualRouter>
+9.00s     9445<ManualRouter>             no route for packet: 8025<Packet>
+10.00s    2872<Host>                     sending packet: 5934<Packet>
+10.00s    1866<Link>                     packet in: 5934<Packet> from 2872<Host>
+10.00s    1866<Link>                     packet out: 5934<Packet> to 9445<ManualRouter>
+10.00s    9445<ManualRouter>             no route for packet: 5934<Packet>
+11.00s    4100<Host>                     sending packet: 3339<Packet>
+11.00s    5823<Link>                     packet in: 3339<Packet> from 4100<Host>
+11.00s    5823<Link>                     packet out: 3339<Packet> to 9445<ManualRouter>
+11.00s    9445<ManualRouter>             no route for packet: 3339<Packet>
+12.00s    0494<Host>                     sending packet: 4695<Packet>
+12.00s    1589<Link>                     packet in: 4695<Packet> from 0494<Host>
+12.00s    1589<Link>                     packet out: 4695<Packet> to 9445<ManualRouter>
+12.00s    9445<ManualRouter>             forwarding packet: 4695<Packet> to 3392<Link>
+12.00s    3392<Link>                     packet in: 4695<Packet> from 9445<ManualRouter>
+12.00s    3392<Link>                     packet out: 4695<Packet> to 6594<Host>
+12.00s    6594<Host>                     no service for packet: 4695<Packet>
+13.00s    2872<Host>                     sending packet: 0173<Packet>
+13.00s    1866<Link>                     packet in: 0173<Packet> from 2872<Host>
+13.00s    1866<Link>                     packet out: 0173<Packet> to 9445<ManualRouter>
+13.00s    9445<ManualRouter>             forwarding packet: 0173<Packet> to 3392<Link>
+13.00s    3392<Link>                     packet in: 0173<Packet> from 9445<ManualRouter>
+13.00s    3392<Link>                     packet out: 0173<Packet> to 6594<Host>
+13.00s    6594<Host>                     no service for packet: 0173<Packet>
+14.00s    4100<Host>                     sending packet: 2285<Packet>
+14.00s    5823<Link>                     packet in: 2285<Packet> from 4100<Host>
+14.00s    5823<Link>                     packet out: 2285<Packet> to 9445<ManualRouter>
+14.00s    9445<ManualRouter>             forwarding packet: 2285<Packet> to 3392<Link>
+14.00s    3392<Link>                     packet in: 2285<Packet> from 9445<ManualRouter>
+14.00s    3392<Link>                     packet out: 2285<Packet> to 6594<Host>
+14.00s    6594<Host>                     no service for packet: 2285<Packet>
+15.00s    0494<Host>                     sending packet: 7331<Packet>
+15.00s    1589<Link>                     packet in: 7331<Packet> from 0494<Host>
+15.00s    1589<Link>                     packet out: 7331<Packet> to 9445<ManualRouter>
+15.00s    9445<ManualRouter>             forwarding packet: 7331<Packet> to 3392<Link>
+15.00s    3392<Link>                     packet in: 7331<Packet> from 9445<ManualRouter>
+15.00s    3392<Link>                     packet out: 7331<Packet> to 6594<Host>
+15.00s    6594<Host>                     received packet: 7331<Packet>, forwarding to 8768<EchoService>
+15.00s    8768<EchoService>              received "Hello 1" from 456:1000, send reply with same data
+15.00s    6594<Host>                     sending packet: 8968<Packet>
+15.00s    3392<Link>                     packet in: 8968<Packet> from 6594<Host>
+15.00s    3392<Link>                     packet out: 8968<Packet> to 9445<ManualRouter>
+15.00s    9445<ManualRouter>             forwarding packet: 8968<Packet> to 1589<Link>
+15.00s    1589<Link>                     packet in: 8968<Packet> from 9445<ManualRouter>
+15.00s    1589<Link>                     packet out: 8968<Packet> to 0494<Host>
+15.00s    0494<Host>                     received packet: 8968<Packet>, forwarding to 2917<MessageService>
+15.00s    2917<MessageService>           received "Hello 1" from 123:3000
+16.00s    2872<Host>                     sending packet: 3078<Packet>
+16.00s    1866<Link>                     packet in: 3078<Packet> from 2872<Host>
+16.00s    1866<Link>                     packet out: 3078<Packet> to 9445<ManualRouter>
+16.00s    9445<ManualRouter>             forwarding packet: 3078<Packet> to 3392<Link>
+16.00s    3392<Link>                     packet in: 3078<Packet> from 9445<ManualRouter>
+16.00s    3392<Link>                     packet out: 3078<Packet> to 6594<Host>
+16.00s    6594<Host>                     received packet: 3078<Packet>, forwarding to 8768<EchoService>
+16.00s    8768<EchoService>              received "Hello 1" from 457:1000, send reply with same data
+16.00s    6594<Host>                     sending packet: 1804<Packet>
+16.00s    3392<Link>                     packet in: 1804<Packet> from 6594<Host>
+16.00s    3392<Link>                     packet out: 1804<Packet> to 9445<ManualRouter>
+16.00s    9445<ManualRouter>             forwarding packet: 1804<Packet> to 1866<Link>
+16.00s    1866<Link>                     packet in: 1804<Packet> from 9445<ManualRouter>
+16.00s    1866<Link>                     packet out: 1804<Packet> to 2872<Host>
+16.00s    2872<Host>                     received packet: 1804<Packet>, forwarding to 0922<MessageService>
+16.00s    0922<MessageService>           received "Hello 1" from 123:3000
+17.00s    4100<Host>                     sending packet: 1695<Packet>
+17.00s    5823<Link>                     packet in: 1695<Packet> from 4100<Host>
+17.00s    5823<Link>                     packet out: 1695<Packet> to 9445<ManualRouter>
+17.00s    9445<ManualRouter>             forwarding packet: 1695<Packet> to 3392<Link>
+17.00s    3392<Link>                     packet in: 1695<Packet> from 9445<ManualRouter>
+17.00s    3392<Link>                     packet out: 1695<Packet> to 6594<Host>
+17.00s    6594<Host>                     received packet: 1695<Packet>, forwarding to 8768<EchoService>
+17.00s    8768<EchoService>              received "Hello 1" from 458:1000, send reply with same data
+17.00s    6594<Host>                     sending packet: 2025<Packet>
+17.00s    3392<Link>                     packet in: 2025<Packet> from 6594<Host>
+17.00s    3392<Link>                     packet out: 2025<Packet> to 9445<ManualRouter>
+17.00s    9445<ManualRouter>             forwarding packet: 2025<Packet> to 5823<Link>
+17.00s    5823<Link>                     packet in: 2025<Packet> from 9445<ManualRouter>
+17.00s    5823<Link>                     packet out: 2025<Packet> to 4100<Host>
+17.00s    4100<Host>                     received packet: 2025<Packet>, forwarding to 1870<MessageService>
+17.00s    1870<MessageService>           received "Hello 1" from 123:3000
+18.00s    0494<Host>                     sending packet: 0485<Packet>
+18.00s    1589<Link>                     packet in: 0485<Packet> from 0494<Host>
+18.00s    1589<Link>                     packet out: 0485<Packet> to 9445<ManualRouter>
+18.00s    9445<ManualRouter>             forwarding packet: 0485<Packet> to 4504<Link>
+18.00s    4504<Link>                     packet in: 0485<Packet> from 9445<ManualRouter>
+18.00s    4504<Link>                     packet out: 0485<Packet> to 0227<Host>
+18.00s    0227<Host>                     received packet: 0485<Packet>, forwarding to 0615<EchoService>
+18.00s    0615<EchoService>              received "Hello 1" from 456:1001, send reply with same data
+18.00s    0227<Host>                     sending packet: 1443<Packet>
+18.00s    4504<Link>                     packet in: 1443<Packet> from 0227<Host>
+18.00s    4504<Link>                     packet out: 1443<Packet> to 9445<ManualRouter>
+18.00s    9445<ManualRouter>             forwarding packet: 1443<Packet> to 1589<Link>
+18.00s    1589<Link>                     packet in: 1443<Packet> from 9445<ManualRouter>
+18.00s    1589<Link>                     packet out: 1443<Packet> to 0494<Host>
+18.00s    0494<Host>                     received packet: 1443<Packet>, forwarding to 0044<MessageService>
+18.00s    0044<MessageService>           received "Hello 1" from 124:3000
+19.00s    2872<Host>                     sending packet: 1507<Packet>
+19.00s    1866<Link>                     packet in: 1507<Packet> from 2872<Host>
+19.00s    1866<Link>                     packet out: 1507<Packet> to 9445<ManualRouter>
+19.00s    9445<ManualRouter>             forwarding packet: 1507<Packet> to 4504<Link>
+19.00s    4504<Link>                     packet in: 1507<Packet> from 9445<ManualRouter>
+19.00s    4504<Link>                     packet out: 1507<Packet> to 0227<Host>
+19.00s    0227<Host>                     received packet: 1507<Packet>, forwarding to 0615<EchoService>
+19.00s    0615<EchoService>              received "Hello 1" from 457:1001, send reply with same data
+19.00s    0227<Host>                     sending packet: 3266<Packet>
+19.00s    4504<Link>                     packet in: 3266<Packet> from 0227<Host>
+19.00s    4504<Link>                     packet out: 3266<Packet> to 9445<ManualRouter>
+19.00s    9445<ManualRouter>             forwarding packet: 3266<Packet> to 1866<Link>
+19.00s    1866<Link>                     packet in: 3266<Packet> from 9445<ManualRouter>
+19.00s    1866<Link>                     packet out: 3266<Packet> to 2872<Host>
+19.00s    2872<Host>                     received packet: 3266<Packet>, forwarding to 9441<MessageService>
+19.00s    9441<MessageService>           received "Hello 1" from 124:3000
+20.00s    4100<Host>                     sending packet: 5085<Packet>
+20.00s    5823<Link>                     packet in: 5085<Packet> from 4100<Host>
+20.00s    5823<Link>                     packet out: 5085<Packet> to 9445<ManualRouter>
+20.00s    9445<ManualRouter>             forwarding packet: 5085<Packet> to 4504<Link>
+20.00s    4504<Link>                     packet in: 5085<Packet> from 9445<ManualRouter>
+20.00s    4504<Link>                     packet out: 5085<Packet> to 0227<Host>
+20.00s    0227<Host>                     received packet: 5085<Packet>, forwarding to 0615<EchoService>
+20.00s    0615<EchoService>              received "Hello 1" from 458:1001, send reply with same data
+20.00s    0227<Host>                     sending packet: 5802<Packet>
+20.00s    4504<Link>                     packet in: 5802<Packet> from 0227<Host>
+20.00s    4504<Link>                     packet out: 5802<Packet> to 9445<ManualRouter>
+20.00s    9445<ManualRouter>             forwarding packet: 5802<Packet> to 5823<Link>
+20.00s    5823<Link>                     packet in: 5802<Packet> from 9445<ManualRouter>
+20.00s    5823<Link>                     packet out: 5802<Packet> to 4100<Host>
+20.00s    4100<Host>                     received packet: 5802<Packet>, forwarding to 5574<MessageService>
+20.00s    5574<MessageService>           received "Hello 1" from 124:3000
+21.00s    0494<Host>                     sending packet: 1220<Packet>
+21.00s    1589<Link>                     packet in: 1220<Packet> from 0494<Host>
+21.00s    1589<Link>                     packet out: 1220<Packet> to 9445<ManualRouter>
+21.00s    9445<ManualRouter>             forwarding packet: 1220<Packet> to 5237<Link>
+21.00s    5237<Link>                     packet in: 1220<Packet> from 9445<ManualRouter>
+21.00s    5237<Link>                     packet out: 1220<Packet> to 3069<Host>
+21.00s    3069<Host>                     received packet: 1220<Packet>, forwarding to 1578<EchoService>
+21.00s    1578<EchoService>              received "Hello 1" from 456:1002, send reply with same data
+21.00s    3069<Host>                     sending packet: 1661<Packet>
+21.00s    5237<Link>                     packet in: 1661<Packet> from 3069<Host>
+21.00s    5237<Link>                     packet out: 1661<Packet> to 9445<ManualRouter>
+21.00s    9445<ManualRouter>             forwarding packet: 1661<Packet> to 1589<Link>
+21.00s    1589<Link>                     packet in: 1661<Packet> from 9445<ManualRouter>
+21.00s    1589<Link>                     packet out: 1661<Packet> to 0494<Host>
+21.00s    0494<Host>                     received packet: 1661<Packet>, forwarding to 4043<MessageService>
+21.00s    4043<MessageService>           received "Hello 1" from 125:3000
+22.00s    2872<Host>                     sending packet: 5607<Packet>
+22.00s    1866<Link>                     packet in: 5607<Packet> from 2872<Host>
+22.00s    1866<Link>                     packet out: 5607<Packet> to 9445<ManualRouter>
+22.00s    9445<ManualRouter>             forwarding packet: 5607<Packet> to 5237<Link>
+22.00s    5237<Link>                     packet in: 5607<Packet> from 9445<ManualRouter>
+22.00s    5237<Link>                     packet out: 5607<Packet> to 3069<Host>
+22.00s    3069<Host>                     received packet: 5607<Packet>, forwarding to 1578<EchoService>
+22.00s    1578<EchoService>              received "Hello 1" from 457:1002, send reply with same data
+22.00s    3069<Host>                     sending packet: 1999<Packet>
+22.00s    5237<Link>                     packet in: 1999<Packet> from 3069<Host>
+22.00s    5237<Link>                     packet out: 1999<Packet> to 9445<ManualRouter>
+22.00s    9445<ManualRouter>             forwarding packet: 1999<Packet> to 1866<Link>
+22.00s    1866<Link>                     packet in: 1999<Packet> from 9445<ManualRouter>
+22.00s    1866<Link>                     packet out: 1999<Packet> to 2872<Host>
+22.00s    2872<Host>                     received packet: 1999<Packet>, forwarding to 0613<MessageService>
+22.00s    0613<MessageService>           received "Hello 1" from 125:3000
+23.00s    4100<Host>                     sending packet: 1661<Packet>
+23.00s    5823<Link>                     packet in: 1661<Packet> from 4100<Host>
+23.00s    5823<Link>                     packet out: 1661<Packet> to 9445<ManualRouter>
+23.00s    9445<ManualRouter>             forwarding packet: 1661<Packet> to 5237<Link>
+23.00s    5237<Link>                     packet in: 1661<Packet> from 9445<ManualRouter>
+23.00s    5237<Link>                     packet out: 1661<Packet> to 3069<Host>
+23.00s    3069<Host>                     received packet: 1661<Packet>, forwarding to 1578<EchoService>
+23.00s    1578<EchoService>              received "Hello 1" from 458:1002, send reply with same data
+23.00s    3069<Host>                     sending packet: 9051<Packet>
+23.00s    5237<Link>                     packet in: 9051<Packet> from 3069<Host>
+23.00s    5237<Link>                     packet out: 9051<Packet> to 9445<ManualRouter>
+23.00s    9445<ManualRouter>             forwarding packet: 9051<Packet> to 5823<Link>
+23.00s    5823<Link>                     packet in: 9051<Packet> from 9445<ManualRouter>
+23.00s    5823<Link>                     packet out: 9051<Packet> to 4100<Host>
+23.00s    4100<Host>                     received packet: 9051<Packet>, forwarding to 5772<MessageService>
+23.00s    5772<MessageService>           received "Hello 1" from 125:3000
+24.00s    0494<Host>                     sending packet: 3537<Packet>
+24.00s    1589<Link>                     packet in: 3537<Packet> from 0494<Host>
+24.00s    1589<Link>                     packet out: 3537<Packet> to 9445<ManualRouter>
+24.00s    9445<ManualRouter>             no route for packet: 3537<Packet>
+25.00s    2872<Host>                     sending packet: 4165<Packet>
+25.00s    1866<Link>                     packet in: 4165<Packet> from 2872<Host>
+25.00s    1866<Link>                     packet out: 4165<Packet> to 9445<ManualRouter>
+25.00s    9445<ManualRouter>             no route for packet: 4165<Packet>
+26.00s    4100<Host>                     sending packet: 3709<Packet>
+26.00s    5823<Link>                     packet in: 3709<Packet> from 4100<Host>
+26.00s    5823<Link>                     packet out: 3709<Packet> to 9445<ManualRouter>
+26.00s    9445<ManualRouter>             no route for packet: 3709<Packet>
+27.00s    0494<Host>                     sending packet: 8607<Packet>
+27.00s    1589<Link>                     packet in: 8607<Packet> from 0494<Host>
+27.00s    1589<Link>                     packet out: 8607<Packet> to 9445<ManualRouter>
+27.00s    9445<ManualRouter>             forwarding packet: 8607<Packet> to 3392<Link>
+27.00s    3392<Link>                     packet in: 8607<Packet> from 9445<ManualRouter>
+27.00s    3392<Link>                     packet out: 8607<Packet> to 6594<Host>
+27.00s    6594<Host>                     no service for packet: 8607<Packet>
+28.00s    2872<Host>                     sending packet: 0090<Packet>
+28.00s    1866<Link>                     packet in: 0090<Packet> from 2872<Host>
+28.00s    1866<Link>                     packet out: 0090<Packet> to 9445<ManualRouter>
+28.00s    9445<ManualRouter>             forwarding packet: 0090<Packet> to 3392<Link>
+28.00s    3392<Link>                     packet in: 0090<Packet> from 9445<ManualRouter>
+28.00s    3392<Link>                     packet out: 0090<Packet> to 6594<Host>
+28.00s    6594<Host>                     no service for packet: 0090<Packet>
+29.00s    4100<Host>                     sending packet: 0335<Packet>
+29.00s    5823<Link>                     packet in: 0335<Packet> from 4100<Host>
+29.00s    5823<Link>                     packet out: 0335<Packet> to 9445<ManualRouter>
+29.00s    9445<ManualRouter>             forwarding packet: 0335<Packet> to 3392<Link>
+29.00s    3392<Link>                     packet in: 0335<Packet> from 9445<ManualRouter>
+29.00s    3392<Link>                     packet out: 0335<Packet> to 6594<Host>
+29.00s    6594<Host>                     no service for packet: 0335<Packet>
+30.00s    0494<Host>                     sending packet: 0711<Packet>
+30.00s    1589<Link>                     packet in: 0711<Packet> from 0494<Host>
+30.00s    1589<Link>                     packet out: 0711<Packet> to 9445<ManualRouter>
+30.00s    9445<ManualRouter>             forwarding packet: 0711<Packet> to 3392<Link>
+30.00s    3392<Link>                     packet in: 0711<Packet> from 9445<ManualRouter>
+30.00s    3392<Link>                     packet out: 0711<Packet> to 6594<Host>
+30.00s    6594<Host>                     received packet: 0711<Packet>, forwarding to 8768<EchoService>
+30.00s    8768<EchoService>              received "Hello 2" from 456:1000, send reply with same data
+30.00s    6594<Host>                     sending packet: 9089<Packet>
+30.00s    3392<Link>                     packet in: 9089<Packet> from 6594<Host>
+30.00s    3392<Link>                     packet out: 9089<Packet> to 9445<ManualRouter>
+30.00s    9445<ManualRouter>             forwarding packet: 9089<Packet> to 1589<Link>
+30.00s    1589<Link>                     packet in: 9089<Packet> from 9445<ManualRouter>
+30.00s    1589<Link>                     packet out: 9089<Packet> to 0494<Host>
+30.00s    0494<Host>                     received packet: 9089<Packet>, forwarding to 2917<MessageService>
+30.00s    2917<MessageService>           received "Hello 2" from 123:3000
+31.00s    2872<Host>                     sending packet: 9432<Packet>
+31.00s    1866<Link>                     packet in: 9432<Packet> from 2872<Host>
+31.00s    1866<Link>                     packet out: 9432<Packet> to 9445<ManualRouter>
+31.00s    9445<ManualRouter>             forwarding packet: 9432<Packet> to 3392<Link>
+31.00s    3392<Link>                     packet in: 9432<Packet> from 9445<ManualRouter>
+31.00s    3392<Link>                     packet out: 9432<Packet> to 6594<Host>
+31.00s    6594<Host>                     received packet: 9432<Packet>, forwarding to 8768<EchoService>
+31.00s    8768<EchoService>              received "Hello 2" from 457:1000, send reply with same data
+31.00s    6594<Host>                     sending packet: 6841<Packet>
+31.00s    3392<Link>                     packet in: 6841<Packet> from 6594<Host>
+31.00s    3392<Link>                     packet out: 6841<Packet> to 9445<ManualRouter>
+31.00s    9445<ManualRouter>             forwarding packet: 6841<Packet> to 1866<Link>
+31.00s    1866<Link>                     packet in: 6841<Packet> from 9445<ManualRouter>
+31.00s    1866<Link>                     packet out: 6841<Packet> to 2872<Host>
+31.00s    2872<Host>                     received packet: 6841<Packet>, forwarding to 0922<MessageService>
+31.00s    0922<MessageService>           received "Hello 2" from 123:3000
+32.00s    4100<Host>                     sending packet: 6513<Packet>
+32.00s    5823<Link>                     packet in: 6513<Packet> from 4100<Host>
+32.00s    5823<Link>                     packet out: 6513<Packet> to 9445<ManualRouter>
+32.00s    9445<ManualRouter>             forwarding packet: 6513<Packet> to 3392<Link>
+32.00s    3392<Link>                     packet in: 6513<Packet> from 9445<ManualRouter>
+32.00s    3392<Link>                     packet out: 6513<Packet> to 6594<Host>
+32.00s    6594<Host>                     received packet: 6513<Packet>, forwarding to 8768<EchoService>
+32.00s    8768<EchoService>              received "Hello 2" from 458:1000, send reply with same data
+32.00s    6594<Host>                     sending packet: 0428<Packet>
+32.00s    3392<Link>                     packet in: 0428<Packet> from 6594<Host>
+32.00s    3392<Link>                     packet out: 0428<Packet> to 9445<ManualRouter>
+32.00s    9445<ManualRouter>             forwarding packet: 0428<Packet> to 5823<Link>
+32.00s    5823<Link>                     packet in: 0428<Packet> from 9445<ManualRouter>
+32.00s    5823<Link>                     packet out: 0428<Packet> to 4100<Host>
+32.00s    4100<Host>                     received packet: 0428<Packet>, forwarding to 1870<MessageService>
+32.00s    1870<MessageService>           received "Hello 2" from 123:3000
+33.00s    0494<Host>                     sending packet: 1075<Packet>
+33.00s    1589<Link>                     packet in: 1075<Packet> from 0494<Host>
+33.00s    1589<Link>                     packet out: 1075<Packet> to 9445<ManualRouter>
+33.00s    9445<ManualRouter>             forwarding packet: 1075<Packet> to 4504<Link>
+33.00s    4504<Link>                     packet in: 1075<Packet> from 9445<ManualRouter>
+33.00s    4504<Link>                     packet out: 1075<Packet> to 0227<Host>
+33.00s    0227<Host>                     received packet: 1075<Packet>, forwarding to 0615<EchoService>
+33.00s    0615<EchoService>              received "Hello 2" from 456:1001, send reply with same data
+33.00s    0227<Host>                     sending packet: 7856<Packet>
+33.00s    4504<Link>                     packet in: 7856<Packet> from 0227<Host>
+33.00s    4504<Link>                     packet out: 7856<Packet> to 9445<ManualRouter>
+33.00s    9445<ManualRouter>             forwarding packet: 7856<Packet> to 1589<Link>
+33.00s    1589<Link>                     packet in: 7856<Packet> from 9445<ManualRouter>
+33.00s    1589<Link>                     packet out: 7856<Packet> to 0494<Host>
+33.00s    0494<Host>                     received packet: 7856<Packet>, forwarding to 0044<MessageService>
+33.00s    0044<MessageService>           received "Hello 2" from 124:3000
+34.00s    2872<Host>                     sending packet: 0981<Packet>
+34.00s    1866<Link>                     packet in: 0981<Packet> from 2872<Host>
+34.00s    1866<Link>                     packet out: 0981<Packet> to 9445<ManualRouter>
+34.00s    9445<ManualRouter>             forwarding packet: 0981<Packet> to 4504<Link>
+34.00s    4504<Link>                     packet in: 0981<Packet> from 9445<ManualRouter>
+34.00s    4504<Link>                     packet out: 0981<Packet> to 0227<Host>
+34.00s    0227<Host>                     received packet: 0981<Packet>, forwarding to 0615<EchoService>
+34.00s    0615<EchoService>              received "Hello 2" from 457:1001, send reply with same data
+34.00s    0227<Host>                     sending packet: 1713<Packet>
+34.00s    4504<Link>                     packet in: 1713<Packet> from 0227<Host>
+34.00s    4504<Link>                     packet out: 1713<Packet> to 9445<ManualRouter>
+34.00s    9445<ManualRouter>             forwarding packet: 1713<Packet> to 1866<Link>
+34.00s    1866<Link>                     packet in: 1713<Packet> from 9445<ManualRouter>
+34.00s    1866<Link>                     packet out: 1713<Packet> to 2872<Host>
+34.00s    2872<Host>                     received packet: 1713<Packet>, forwarding to 9441<MessageService>
+34.00s    9441<MessageService>           received "Hello 2" from 124:3000
+35.00s    4100<Host>                     sending packet: 0215<Packet>
+35.00s    5823<Link>                     packet in: 0215<Packet> from 4100<Host>
+35.00s    5823<Link>                     packet out: 0215<Packet> to 9445<ManualRouter>
+35.00s    9445<ManualRouter>             forwarding packet: 0215<Packet> to 4504<Link>
+35.00s    4504<Link>                     packet in: 0215<Packet> from 9445<ManualRouter>
+35.00s    4504<Link>                     packet out: 0215<Packet> to 0227<Host>
+35.00s    0227<Host>                     received packet: 0215<Packet>, forwarding to 0615<EchoService>
+35.00s    0615<EchoService>              received "Hello 2" from 458:1001, send reply with same data
+35.00s    0227<Host>                     sending packet: 3509<Packet>
+35.00s    4504<Link>                     packet in: 3509<Packet> from 0227<Host>
+35.00s    4504<Link>                     packet out: 3509<Packet> to 9445<ManualRouter>
+35.00s    9445<ManualRouter>             forwarding packet: 3509<Packet> to 5823<Link>
+35.00s    5823<Link>                     packet in: 3509<Packet> from 9445<ManualRouter>
+35.00s    5823<Link>                     packet out: 3509<Packet> to 4100<Host>
+35.00s    4100<Host>                     received packet: 3509<Packet>, forwarding to 5574<MessageService>
+35.00s    5574<MessageService>           received "Hello 2" from 124:3000
+36.00s    0494<Host>                     sending packet: 1316<Packet>
+36.00s    1589<Link>                     packet in: 1316<Packet> from 0494<Host>
+36.00s    1589<Link>                     packet out: 1316<Packet> to 9445<ManualRouter>
+36.00s    9445<ManualRouter>             forwarding packet: 1316<Packet> to 5237<Link>
+36.00s    5237<Link>                     packet in: 1316<Packet> from 9445<ManualRouter>
+36.00s    5237<Link>                     packet out: 1316<Packet> to 3069<Host>
+36.00s    3069<Host>                     received packet: 1316<Packet>, forwarding to 1578<EchoService>
+36.00s    1578<EchoService>              received "Hello 2" from 456:1002, send reply with same data
+36.00s    3069<Host>                     sending packet: 9426<Packet>
+36.00s    5237<Link>                     packet in: 9426<Packet> from 3069<Host>
+36.00s    5237<Link>                     packet out: 9426<Packet> to 9445<ManualRouter>
+36.00s    9445<ManualRouter>             forwarding packet: 9426<Packet> to 1589<Link>
+36.00s    1589<Link>                     packet in: 9426<Packet> from 9445<ManualRouter>
+36.00s    1589<Link>                     packet out: 9426<Packet> to 0494<Host>
+36.00s    0494<Host>                     received packet: 9426<Packet>, forwarding to 4043<MessageService>
+36.00s    4043<MessageService>           received "Hello 2" from 125:3000
+37.00s    2872<Host>                     sending packet: 4934<Packet>
+37.00s    1866<Link>                     packet in: 4934<Packet> from 2872<Host>
+37.00s    1866<Link>                     packet out: 4934<Packet> to 9445<ManualRouter>
+37.00s    9445<ManualRouter>             forwarding packet: 4934<Packet> to 5237<Link>
+37.00s    5237<Link>                     packet in: 4934<Packet> from 9445<ManualRouter>
+37.00s    5237<Link>                     packet out: 4934<Packet> to 3069<Host>
+37.00s    3069<Host>                     received packet: 4934<Packet>, forwarding to 1578<EchoService>
+37.00s    1578<EchoService>              received "Hello 2" from 457:1002, send reply with same data
+37.00s    3069<Host>                     sending packet: 7630<Packet>
+37.00s    5237<Link>                     packet in: 7630<Packet> from 3069<Host>
+37.00s    5237<Link>                     packet out: 7630<Packet> to 9445<ManualRouter>
+37.00s    9445<ManualRouter>             forwarding packet: 7630<Packet> to 1866<Link>
+37.00s    1866<Link>                     packet in: 7630<Packet> from 9445<ManualRouter>
+37.00s    1866<Link>                     packet out: 7630<Packet> to 2872<Host>
+37.00s    2872<Host>                     received packet: 7630<Packet>, forwarding to 0613<MessageService>
+37.00s    0613<MessageService>           received "Hello 2" from 125:3000
+38.00s    4100<Host>                     sending packet: 8526<Packet>
+38.00s    5823<Link>                     packet in: 8526<Packet> from 4100<Host>
+38.00s    5823<Link>                     packet out: 8526<Packet> to 9445<ManualRouter>
+38.00s    9445<ManualRouter>             forwarding packet: 8526<Packet> to 5237<Link>
+38.00s    5237<Link>                     packet in: 8526<Packet> from 9445<ManualRouter>
+38.00s    5237<Link>                     packet out: 8526<Packet> to 3069<Host>
+38.00s    3069<Host>                     received packet: 8526<Packet>, forwarding to 1578<EchoService>
+38.00s    1578<EchoService>              received "Hello 2" from 458:1002, send reply with same data
+38.00s    3069<Host>                     sending packet: 1928<Packet>
+38.00s    5237<Link>                     packet in: 1928<Packet> from 3069<Host>
+38.00s    5237<Link>                     packet out: 1928<Packet> to 9445<ManualRouter>
+38.00s    9445<ManualRouter>             forwarding packet: 1928<Packet> to 5823<Link>
+38.00s    5823<Link>                     packet in: 1928<Packet> from 9445<ManualRouter>
+38.00s    5823<Link>                     packet out: 1928<Packet> to 4100<Host>
+38.00s    4100<Host>                     received packet: 1928<Packet>, forwarding to 5772<MessageService>
+38.00s    5772<MessageService>           received "Hello 2" from 125:3000
+39.00s    0494<Host>                     sending packet: 9187<Packet>
+39.00s    1589<Link>                     packet in: 9187<Packet> from 0494<Host>
+39.00s    1589<Link>                     packet out: 9187<Packet> to 9445<ManualRouter>
+39.00s    9445<ManualRouter>             no route for packet: 9187<Packet>
+40.00s    2872<Host>                     sending packet: 8517<Packet>
+40.00s    1866<Link>                     packet in: 8517<Packet> from 2872<Host>
+40.00s    1866<Link>                     packet out: 8517<Packet> to 9445<ManualRouter>
+40.00s    9445<ManualRouter>             no route for packet: 8517<Packet>
+41.00s    4100<Host>                     sending packet: 0778<Packet>
+41.00s    5823<Link>                     packet in: 0778<Packet> from 4100<Host>
+41.00s    5823<Link>                     packet out: 0778<Packet> to 9445<ManualRouter>
+41.00s    9445<ManualRouter>             no route for packet: 0778<Packet>
+42.00s    0494<Host>                     sending packet: 3117<Packet>
+42.00s    1589<Link>                     packet in: 3117<Packet> from 0494<Host>
+42.00s    1589<Link>                     packet out: 3117<Packet> to 9445<ManualRouter>
+42.00s    9445<ManualRouter>             forwarding packet: 3117<Packet> to 3392<Link>
+42.00s    3392<Link>                     packet in: 3117<Packet> from 9445<ManualRouter>
+42.00s    3392<Link>                     packet out: 3117<Packet> to 6594<Host>
+42.00s    6594<Host>                     no service for packet: 3117<Packet>
+43.00s    2872<Host>                     sending packet: 9896<Packet>
+43.00s    1866<Link>                     packet in: 9896<Packet> from 2872<Host>
+43.00s    1866<Link>                     packet out: 9896<Packet> to 9445<ManualRouter>
+43.00s    9445<ManualRouter>             forwarding packet: 9896<Packet> to 3392<Link>
+43.00s    3392<Link>                     packet in: 9896<Packet> from 9445<ManualRouter>
+43.00s    3392<Link>                     packet out: 9896<Packet> to 6594<Host>
+43.00s    6594<Host>                     no service for packet: 9896<Packet>
+44.00s    4100<Host>                     sending packet: 4871<Packet>
+44.00s    5823<Link>                     packet in: 4871<Packet> from 4100<Host>
+44.00s    5823<Link>                     packet out: 4871<Packet> to 9445<ManualRouter>
+44.00s    9445<ManualRouter>             forwarding packet: 4871<Packet> to 3392<Link>
+44.00s    3392<Link>                     packet in: 4871<Packet> from 9445<ManualRouter>
+44.00s    3392<Link>                     packet out: 4871<Packet> to 6594<Host>
+44.00s    6594<Host>                     no service for packet: 4871<Packet>
+No memory leak detected.

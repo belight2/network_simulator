@@ -15,13 +15,15 @@ public:
 
 class Router : public Node {
 private:
-  //Router #(Node id): forwarding packet (from: src_address, to: dst_address, (data byte) bytes)
-  std::string forwarding_info_message(std::string src_address, std::string dst_address, std::string data_bytes){
-    return "Router #"+std::to_string(this->id())+": forwarding packet (from: "+src_address+", to: "+dst_address+", "+data_bytes+" bytes)";
+  virtual std::string name() override { return "Router"; }
+  
+  // forwarding packet: 0656<Packet> to 5106<Link>
+  std::string forwarding_info_message(std::string packet_info, std::string link_info){
+    return "forwarding packet: "+packet_info+" to "+link_info;
   }
   //Router #(Node id): no route for packet (from: src_address, to: dst_address, (data byte) bytes)
-  std::string no_route_info_message(std::string src_address, std::string dst_address, std::string data_bytes){
-    return "Router #"+std::to_string(this->id())+": no route for packet (from: "+src_address+", to: "+dst_address+", "+data_bytes+" bytes)";
+  std::string no_route_info_message(std::string packet_info){
+    return "no route for packet: "+packet_info;
   }
 protected:
   std::vector<RoutingEntry> routingTable_;

@@ -1,0 +1,57 @@
+1.00s     0494<Host>                     sending packet: 5574<Packet>
+1.00s     9441<Link>                     packet in: 5574<Packet> from 0494<Host>
+1.00s     9441<Link>                     packet out: 5574<Packet> to 0615<ManualRouter>
+1.00s     0615<ManualRouter>             forwarding packet: 5574<Packet> to 1870<Link>
+1.00s     1870<Link>                     packet in: 5574<Packet> from 0615<ManualRouter>
+1.00s     1870<Link>                     packet out: 5574<Packet> to 4100<ManualRouter>
+1.00s     4100<ManualRouter>             forwarding packet: 5574<Packet> to 2917<Link>
+1.00s     2917<Link>                     packet in: 5574<Packet> from 4100<ManualRouter>
+1.00s     2917<Link>                     packet out: 5574<Packet> to 3069<ManualRouter>
+1.00s     3069<ManualRouter>             forwarding packet: 5574<Packet> to 1578<Link>
+1.00s     1578<Link>                     packet in: 5574<Packet> from 3069<ManualRouter>
+1.00s     1578<Link>                     packet out: 5574<Packet> to 6594<Host>
+1.00s     6594<Host>                     received packet: 5574<Packet>, forwarding to 0227<EchoService>
+1.00s     0227<EchoService>              received "Hello, world!" from 0:1000, send reply with same data
+1.00s     6594<Host>                     sending packet: 0613<Packet>
+1.00s     1578<Link>                     packet in: 0613<Packet> from 6594<Host>
+1.00s     1578<Link>                     packet out: 0613<Packet> to 3069<ManualRouter>
+1.00s     3069<ManualRouter>             forwarding packet: 0613<Packet> to 2917<Link>
+1.00s     2917<Link>                     packet in: 0613<Packet> from 3069<ManualRouter>
+1.00s     2917<Link>                     packet out: 0613<Packet> to 4100<ManualRouter>
+1.00s     4100<ManualRouter>             forwarding packet: 0613<Packet> to 1870<Link>
+1.00s     1870<Link>                     packet in: 0613<Packet> from 4100<ManualRouter>
+1.00s     1870<Link>                     packet out: 0613<Packet> to 0615<ManualRouter>
+1.00s     0615<ManualRouter>             forwarding packet: 0613<Packet> to 9441<Link>
+1.00s     9441<Link>                     packet in: 0613<Packet> from 0615<ManualRouter>
+1.00s     9441<Link>                     packet out: 0613<Packet> to 0494<Host>
+1.00s     0494<Host>                     received packet: 0613<Packet>, forwarding to 2872<MessageService>
+1.00s     2872<MessageService>           received "Hello, world!" from 1:3000
+2.00s     0494<Host>                     sending packet: 3511<Packet>
+2.00s     9441<Link>                     packet in: 3511<Packet> from 0494<Host>
+2.00s     9441<Link>                     packet out: 3511<Packet> to 0615<ManualRouter>
+2.00s     0615<ManualRouter>             forwarding packet: 3511<Packet> to 1870<Link>
+2.00s     1870<Link>                     packet in: 3511<Packet> from 0615<ManualRouter>
+2.00s     1870<Link>                     packet out: 3511<Packet> to 4100<ManualRouter>
+2.00s     4100<ManualRouter>             forwarding packet: 3511<Packet> to 2917<Link>
+2.00s     2917<Link>                     packet in: 3511<Packet> from 4100<ManualRouter>
+2.00s     2917<Link>                     packet out: 3511<Packet> to 3069<ManualRouter>
+2.00s     3069<ManualRouter>             forwarding packet: 3511<Packet> to 1578<Link>
+2.00s     1578<Link>                     packet in: 3511<Packet> from 3069<ManualRouter>
+2.00s     1578<Link>                     packet out: 3511<Packet> to 6594<Host>
+2.00s     6594<Host>                     received packet: 3511<Packet>, forwarding to 0227<EchoService>
+2.00s     0227<EchoService>              received "Bye, world!" from 0:1000, send reply with same data
+2.00s     6594<Host>                     sending packet: 1200<Packet>
+2.00s     1578<Link>                     packet in: 1200<Packet> from 6594<Host>
+2.00s     1578<Link>                     packet out: 1200<Packet> to 3069<ManualRouter>
+2.00s     3069<ManualRouter>             forwarding packet: 1200<Packet> to 2917<Link>
+2.00s     2917<Link>                     packet in: 1200<Packet> from 3069<ManualRouter>
+2.00s     2917<Link>                     packet out: 1200<Packet> to 4100<ManualRouter>
+2.00s     4100<ManualRouter>             forwarding packet: 1200<Packet> to 1870<Link>
+2.00s     1870<Link>                     packet in: 1200<Packet> from 4100<ManualRouter>
+2.00s     1870<Link>                     packet out: 1200<Packet> to 0615<ManualRouter>
+2.00s     0615<ManualRouter>             forwarding packet: 1200<Packet> to 9441<Link>
+2.00s     9441<Link>                     packet in: 1200<Packet> from 0615<ManualRouter>
+2.00s     9441<Link>                     packet out: 1200<Packet> to 0494<Host>
+2.00s     0494<Host>                     received packet: 1200<Packet>, forwarding to 2872<MessageService>
+2.00s     2872<MessageService>           received "Bye, world!" from 1:3000
+No memory leak detected.

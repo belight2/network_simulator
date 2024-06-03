@@ -2,18 +2,20 @@
 #define NODE_H
 
 #include "link.h"
+#include "object.h"
 #include "packet.h"
+#include "simulator.h"
 #include <vector>
 
 #include <string>
 
-class Node {
+class Node : public Object {
   friend class LinkInstaller;
 
 private:
   int id_;
   static int nextId_;
-
+  virtual std::string name() override = 0;
 public:
   Node() : id_(nextId_++) {}
   int id() const { return id_; }

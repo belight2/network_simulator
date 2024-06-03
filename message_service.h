@@ -4,7 +4,8 @@
 #include "address.h"
 #include "host.h"
 #include "service.h"
-#include <iostream>
+
+#include "simulator.h"
 
 // send 함수를 호출하여 메시지를 전송할 수 있는 서비스
 class MessageService : public Service {
@@ -20,8 +21,10 @@ private:
   
   // 받은 메시지를 출력한다.
   std::string receive_info_message(std::string src_address, short src_port, std::string message){
-    return "MessageService: received \""+message+"\" from "+src_address+":"+std::to_string(src_port);
+    return "received \""+message+"\" from "+src_address+":"+std::to_string(src_port);
   }
+
+  virtual std::string name() override { return "MessageService"; }
 public:
   ~MessageService() override {}
   

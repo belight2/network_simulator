@@ -7,8 +7,6 @@
 #include <vector>
 
 #include <string>
-#include <cstdlib>
-#include <ctime>
 #include <iostream>
 
 class Host : public Node {
@@ -24,19 +22,21 @@ private:
   // 연결된 링크의 개수
   size_t link_size;
 
+  virtual std::string name() override { return "Host"; }
+
   // 패킷 전송 알림 메시지를 반환
-  std::string send_info_message(std::string src_address, std::string dst_address, std::string data_bytes){
-    return "Host #"+std::to_string(this->id())+": sending packet (from: "+src_address+", to: "+dst_address+", "+data_bytes+" bytes)";
+  std::string send_info_message(Packet *packet){
+    return "sending packet: "+ packet->toString();
   }
 
   // 패킷 수신 알림 메시지를 반환
-  std::string receive_info_message(std::string dst_port){
-    return "Host #"+std::to_string(this->id())+": received packet, destination port: "+dst_port;
+  std::string receive_info_message(Packet *packet, Service *service){
+    return "received packet: "+ packet->toString() +", forwarding to " +service->toString();
   }
 
   // 패킷의 포트에 맞는 서비스가 없다는 알림 메시지를 반환
-  std::string no_service_info_message(std::string src_address, std::string dst_address, std::string data_bytes){
-    return "Host #"+std::to_string(this->id())+": no service for packet (from: "+src_address+", to: "+dst_address+", "+data_bytes+" bytes)";
+  std::string no_service_info_message(Packet *packet){
+    return "no service for packet: "+ packet->toString();
   } 
 
 public:

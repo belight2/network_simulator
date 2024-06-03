@@ -1,3 +1,5 @@
+#define CHECK_MEMORY_LEAK
+
 #include "../echo_service.h"
 #include "../echo_service_installer.h"
 #include "../host.h"
@@ -7,6 +9,8 @@
 #include <string>
 #include <vector>
 
+#include "../auto_router.h"
+
 #define COUNT 3
 
 #define SERVER_ADDRESS_START 123
@@ -15,9 +19,11 @@
 #define CLIENT_ADDRESS_START 456
 
 int main() {
+  Simulator::prepare();
+
   std::vector<Host *> servers;
   std::vector<Host *> clients;
-
+  
   for (int i = 0; i < COUNT; i++) {
     servers.push_back(new Host(SERVER_ADDRESS_START + i));
     clients.push_back(new Host(CLIENT_ADDRESS_START + i));
@@ -67,13 +73,18 @@ int main() {
     clients[i]->initialize();
     servers[i]->initialize();
   }
-  
+
   for (int x = 0; x < 3; x++) {
     for (size_t i = 0; i < messageServices.size(); i++) {
-      messageServices[i]->send("Hello " + std::to_string(x));
+      Simulator::schedule(
+          x * messageServices.size() + i, [i, x, messageServices]() -> void {
+            messageServices[i]->send("Hello " + std::to_string(x));
+          });
     }
   }
-  
+
+  Simulator::run();
+
   for (int i = 0; i < COUNT; i++) {
     delete servers[i];
     delete clients[i];
@@ -85,4 +96,6 @@ int main() {
     delete serverLinks[i];
     delete clientLinks[i];
   }
+
+  Object::checkMemoryLeak();
 }

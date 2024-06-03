@@ -2,10 +2,11 @@
 #define SERVICE_H
 
 #include "node.h"
+#include "object.h"
 
 class Host;
 
-class Service {
+class Service : public Object {
   friend class ServiceInstaller;
 private: 
   // 서비스의 포트값을 변경

@@ -1,0 +1,307 @@
+1.23s     0227<BulkSendService>          sending data
+1.23s     6594<Host>                     sending packet: 5574<Packet>
+1.23s     2917<Link>                     packet in: 5574<Packet> from 6594<Host>
+
+
+1.36s     0227<BulkSendService>          sending data
+1.36s     6594<Host>                     sending packet: 0613<Packet>
+1.36s     1578<Link>                     packet in: 0613<Packet> from 6594<Host>
+
+
+1.48s     0227<BulkSendService>          sending data
+1.48s     6594<Host>                     sending packet: 3511<Packet>
+1.48s     1578<Link>                     packet in: 3511<Packet> from 6594<Host>
+
+
+1.60s     0227<BulkSendService>          sending data
+1.60s     6594<Host>                     sending packet: 1200<Packet>
+1.60s     2917<Link>                     packet in: 1200<Packet> from 6594<Host>
+
+
+1.73s     0227<BulkSendService>          sending data
+1.73s     6594<Host>                     sending packet: 6514<Packet>
+1.73s     2917<Link>                     packet in: 6514<Packet> from 6594<Host>
+
+
+1.85s     0227<BulkSendService>          sending data
+1.85s     6594<Host>                     sending packet: 9445<Packet>
+1.85s     2917<Link>                     packet in: 9445<Packet> from 6594<Host>
+
+
+1.97s     0227<BulkSendService>          sending data
+1.97s     6594<Host>                     sending packet: 3392<Packet>
+1.97s     1578<Link>                     packet in: 3392<Packet> from 6594<Host>
+
+
+2.09s     0227<BulkSendService>          sending data
+2.09s     6594<Host>                     sending packet: 4504<Packet>
+2.09s     2917<Link>                     packet in: 4504<Packet> from 6594<Host>
+
+
+2.22s     0227<BulkSendService>          sending data
+2.22s     6594<Host>                     sending packet: 5237<Packet>
+2.22s     1578<Link>                     packet in: 5237<Packet> from 6594<Host>
+
+
+2.34s     0227<BulkSendService>          sending data
+2.34s     6594<Host>                     sending packet: 2515<Packet>
+2.34s     1578<Link>                     packet in: 2515<Packet> from 6594<Host>
+
+
+2.43s     2917<Link>                     packet out: 5574<Packet> to 4100<AutoRouter>
+2.43s     4100<AutoRouter>               forwarding packet: 5574<Packet> to 1870<Link>
+2.43s     1870<Link>                     packet in: 5574<Packet> from 4100<AutoRouter>
+
+2.46s     1578<Link>                     packet out: 0613<Packet> to 3069<AutoRouter>
+2.46s     3069<AutoRouter>               forwarding packet: 0613<Packet> to 0922<Link>
+2.46s     0922<Link>                     packet in: 0613<Packet> from 3069<AutoRouter>
+2.46s     0227<BulkSendService>          sending data
+2.46s     6594<Host>                     sending packet: 1759<Packet>
+2.46s     2917<Link>                     packet in: 1759<Packet> from 6594<Host>
+2.58s     1578<Link>                     packet out: 3511<Packet> to 3069<AutoRouter>
+2.58s     3069<AutoRouter>               forwarding packet: 3511<Packet> to 0922<Link>
+2.58s     0922<Link>                     packet in: 3511<Packet> from 3069<AutoRouter>
+2.59s     0227<BulkSendService>          sending data
+2.59s     6594<Host>                     sending packet: 0421<Packet>
+2.59s     2917<Link>                     packet in: 0421<Packet> from 6594<Host>
+2.71s     0227<BulkSendService>          sending data
+2.71s     6594<Host>                     sending packet: 5728<Packet>
+2.71s     2917<Link>                     packet in: 5728<Packet> from 6594<Host>
+2.80s     2917<Link>                     packet out: 1200<Packet> to 4100<AutoRouter>
+2.80s     4100<AutoRouter>               forwarding packet: 1200<Packet> to 1870<Link>
+2.80s     1870<Link>                     packet in: 1200<Packet> from 4100<AutoRouter>
+2.83s     0227<BulkSendService>          sending data
+2.83s     6594<Host>                     sending packet: 6139<Packet>
+2.83s     2917<Link>                     packet in: 6139<Packet> from 6594<Host>
+2.93s     2917<Link>                     packet out: 6514<Packet> to 4100<AutoRouter>
+2.93s     4100<AutoRouter>               forwarding packet: 6514<Packet> to 1870<Link>
+2.93s     1870<Link>                     packet in: 6514<Packet> from 4100<AutoRouter>
+2.96s     0227<BulkSendService>          sending data
+2.96s     6594<Host>                     sending packet: 4160<Packet>
+2.96s     2917<Link>                     packet in: 4160<Packet> from 6594<Host>
+3.05s     2917<Link>                     packet out: 9445<Packet> to 4100<AutoRouter>
+3.05s     4100<AutoRouter>               forwarding packet: 9445<Packet> to 1870<Link>
+3.05s     1870<Link>                     packet in: 9445<Packet> from 4100<AutoRouter>
+3.07s     1578<Link>                     packet out: 3392<Packet> to 3069<AutoRouter>
+3.07s     3069<AutoRouter>               forwarding packet: 3392<Packet> to 0922<Link>
+3.07s     0922<Link>                     packet in: 3392<Packet> from 3069<AutoRouter>
+3.08s     0227<BulkSendService>          sending data
+3.08s     6594<Host>                     sending packet: 8958<Packet>
+3.08s     1578<Link>                     packet in: 8958<Packet> from 6594<Host>
+3.20s     0227<BulkSendService>          sending data
+3.20s     6594<Host>                     sending packet: 8348<Packet>
+3.20s     2917<Link>                     packet in: 8348<Packet> from 6594<Host>
+3.29s     2917<Link>                     packet out: 4504<Packet> to 4100<AutoRouter>
+3.29s     4100<AutoRouter>               forwarding packet: 4504<Packet> to 1870<Link>
+3.29s     1870<Link>                     packet in: 4504<Packet> from 4100<AutoRouter>
+3.32s     1578<Link>                     packet out: 5237<Packet> to 3069<AutoRouter>
+3.32s     3069<AutoRouter>               forwarding packet: 5237<Packet> to 0922<Link>
+3.32s     0922<Link>                     packet in: 5237<Packet> from 3069<AutoRouter>
+3.33s     0227<BulkSendService>          sending data
+3.33s     6594<Host>                     sending packet: 0653<Packet>
+3.33s     1578<Link>                     packet in: 0653<Packet> from 6594<Host>
+3.44s     1578<Link>                     packet out: 2515<Packet> to 3069<AutoRouter>
+3.44s     3069<AutoRouter>               forwarding packet: 2515<Packet> to 0922<Link>
+3.44s     0922<Link>                     packet in: 2515<Packet> from 3069<AutoRouter>
+3.45s     0227<BulkSendService>          sending data
+3.45s     6594<Host>                     sending packet: 6771<Packet>
+3.45s     2917<Link>                     packet in: 6771<Packet> from 6594<Host>
+3.66s     2917<Link>                     packet out: 1759<Packet> to 4100<AutoRouter>
+3.66s     4100<AutoRouter>               forwarding packet: 1759<Packet> to 1870<Link>
+3.66s     1870<Link>                     packet in: 1759<Packet> from 4100<AutoRouter>
+3.76s     0922<Link>                     packet out: 0613<Packet> to 8768<AutoRouter>
+3.76s     8768<AutoRouter>               forwarding packet: 0613<Packet> to 0044<Link>
+3.76s     0044<Link>                     packet in: 0613<Packet> from 8768<AutoRouter>
+3.79s     2917<Link>                     packet out: 0421<Packet> to 4100<AutoRouter>
+3.79s     4100<AutoRouter>               forwarding packet: 0421<Packet> to 1870<Link>
+3.79s     1870<Link>                     packet in: 0421<Packet> from 4100<AutoRouter>
+3.83s     1870<Link>                     packet out: 5574<Packet> to 8768<AutoRouter>
+3.83s     8768<AutoRouter>               forwarding packet: 5574<Packet> to 0044<Link>
+3.83s     0044<Link>                     packet in: 5574<Packet> from 8768<AutoRouter>
+3.88s     0922<Link>                     packet out: 3511<Packet> to 8768<AutoRouter>
+3.88s     8768<AutoRouter>               forwarding packet: 3511<Packet> to 0044<Link>
+3.88s     0044<Link>                     packet in: 3511<Packet> from 8768<AutoRouter>
+3.91s     2917<Link>                     packet out: 5728<Packet> to 4100<AutoRouter>
+3.91s     4100<AutoRouter>               forwarding packet: 5728<Packet> to 1870<Link>
+3.91s     1870<Link>                     packet in: 5728<Packet> from 4100<AutoRouter>
+4.03s     2917<Link>                     packet out: 6139<Packet> to 4100<AutoRouter>
+4.03s     4100<AutoRouter>               forwarding packet: 6139<Packet> to 1870<Link>
+4.03s     1870<Link>                     packet in: 6139<Packet> from 4100<AutoRouter>
+4.16s     2917<Link>                     packet out: 4160<Packet> to 4100<AutoRouter>
+4.16s     4100<AutoRouter>               forwarding packet: 4160<Packet> to 1870<Link>
+4.16s     1870<Link>                     packet in: 4160<Packet> from 4100<AutoRouter>
+4.18s     1578<Link>                     packet out: 8958<Packet> to 3069<AutoRouter>
+4.18s     3069<AutoRouter>               forwarding packet: 8958<Packet> to 0922<Link>
+4.18s     0922<Link>                     packet in: 8958<Packet> from 3069<AutoRouter>
+4.20s     1870<Link>                     packet out: 1200<Packet> to 8768<AutoRouter>
+4.20s     8768<AutoRouter>               forwarding packet: 1200<Packet> to 0044<Link>
+4.20s     0044<Link>                     packet in: 1200<Packet> from 8768<AutoRouter>
+4.33s     1870<Link>                     packet out: 6514<Packet> to 8768<AutoRouter>
+4.33s     8768<AutoRouter>               forwarding packet: 6514<Packet> to 0044<Link>
+4.33s     0044<Link>                     packet in: 6514<Packet> from 8768<AutoRouter>
+4.37s     0922<Link>                     packet out: 3392<Packet> to 8768<AutoRouter>
+4.37s     8768<AutoRouter>               forwarding packet: 3392<Packet> to 0044<Link>
+4.37s     0044<Link>                     packet in: 3392<Packet> from 8768<AutoRouter>
+4.40s     2917<Link>                     packet out: 8348<Packet> to 4100<AutoRouter>
+4.40s     4100<AutoRouter>               forwarding packet: 8348<Packet> to 1870<Link>
+4.40s     1870<Link>                     packet in: 8348<Packet> from 4100<AutoRouter>
+4.43s     1578<Link>                     packet out: 0653<Packet> to 3069<AutoRouter>
+4.43s     3069<AutoRouter>               forwarding packet: 0653<Packet> to 0922<Link>
+4.43s     0922<Link>                     packet in: 0653<Packet> from 3069<AutoRouter>
+4.45s     1870<Link>                     packet out: 9445<Packet> to 8768<AutoRouter>
+4.45s     8768<AutoRouter>               forwarding packet: 9445<Packet> to 0044<Link>
+4.45s     0044<Link>                     packet in: 9445<Packet> from 8768<AutoRouter>
+4.62s     0922<Link>                     packet out: 5237<Packet> to 8768<AutoRouter>
+4.62s     8768<AutoRouter>               forwarding packet: 5237<Packet> to 0044<Link>
+4.62s     0044<Link>                     packet in: 5237<Packet> from 8768<AutoRouter>
+4.65s     2917<Link>                     packet out: 6771<Packet> to 4100<AutoRouter>
+4.65s     4100<AutoRouter>               forwarding packet: 6771<Packet> to 1870<Link>
+4.65s     1870<Link>                     packet in: 6771<Packet> from 4100<AutoRouter>
+4.70s     1870<Link>                     packet out: 4504<Packet> to 8768<AutoRouter>
+4.70s     8768<AutoRouter>               forwarding packet: 4504<Packet> to 0044<Link>
+4.70s     0044<Link>                     packet in: 4504<Packet> from 8768<AutoRouter>
+4.74s     0922<Link>                     packet out: 2515<Packet> to 8768<AutoRouter>
+4.74s     8768<AutoRouter>               forwarding packet: 2515<Packet> to 0044<Link>
+4.74s     0044<Link>                     packet in: 2515<Packet> from 8768<AutoRouter>
+5.06s     1870<Link>                     packet out: 1759<Packet> to 8768<AutoRouter>
+5.06s     8768<AutoRouter>               forwarding packet: 1759<Packet> to 0044<Link>
+5.06s     0044<Link>                     packet in: 1759<Packet> from 8768<AutoRouter>
+5.19s     1870<Link>                     packet out: 0421<Packet> to 8768<AutoRouter>
+5.19s     8768<AutoRouter>               forwarding packet: 0421<Packet> to 0044<Link>
+5.19s     0044<Link>                     packet in: 0421<Packet> from 8768<AutoRouter>
+5.26s     0044<Link>                     packet out: 0613<Packet> to 0615<AutoRouter>
+5.26s     0615<AutoRouter>               forwarding packet: 0613<Packet> to 9441<Link>
+5.26s     9441<Link>                     packet in: 0613<Packet> from 0615<AutoRouter>
+5.31s     1870<Link>                     packet out: 5728<Packet> to 8768<AutoRouter>
+5.31s     8768<AutoRouter>               forwarding packet: 5728<Packet> to 0044<Link>
+5.31s     0044<Link>                     packet in: 5728<Packet> from 8768<AutoRouter>
+5.33s     0044<Link>                     packet out: 5574<Packet> to 0615<AutoRouter>
+5.33s     0615<AutoRouter>               forwarding packet: 5574<Packet> to 9441<Link>
+5.33s     9441<Link>                     packet in: 5574<Packet> from 0615<AutoRouter>
+5.38s     0044<Link>                     packet out: 3511<Packet> to 0615<AutoRouter>
+5.38s     0615<AutoRouter>               forwarding packet: 3511<Packet> to 9441<Link>
+5.38s     9441<Link>                     packet in: 3511<Packet> from 0615<AutoRouter>
+5.43s     1870<Link>                     packet out: 6139<Packet> to 8768<AutoRouter>
+5.43s     8768<AutoRouter>               forwarding packet: 6139<Packet> to 0044<Link>
+5.43s     0044<Link>                     packet in: 6139<Packet> from 8768<AutoRouter>
+5.48s     0922<Link>                     packet out: 8958<Packet> to 8768<AutoRouter>
+5.48s     8768<AutoRouter>               forwarding packet: 8958<Packet> to 0044<Link>
+5.48s     0044<Link>                     packet in: 8958<Packet> from 8768<AutoRouter>
+5.56s     1870<Link>                     packet out: 4160<Packet> to 8768<AutoRouter>
+5.56s     8768<AutoRouter>               forwarding packet: 4160<Packet> to 0044<Link>
+5.56s     0044<Link>                     packet in: 4160<Packet> from 8768<AutoRouter>
+5.70s     0044<Link>                     packet out: 1200<Packet> to 0615<AutoRouter>
+5.70s     0615<AutoRouter>               forwarding packet: 1200<Packet> to 9441<Link>
+5.70s     9441<Link>                     packet in: 1200<Packet> from 0615<AutoRouter>
+5.73s     0922<Link>                     packet out: 0653<Packet> to 8768<AutoRouter>
+5.73s     8768<AutoRouter>               forwarding packet: 0653<Packet> to 0044<Link>
+5.73s     0044<Link>                     packet in: 0653<Packet> from 8768<AutoRouter>
+5.80s     1870<Link>                     packet out: 8348<Packet> to 8768<AutoRouter>
+5.80s     8768<AutoRouter>               forwarding packet: 8348<Packet> to 0044<Link>
+5.80s     0044<Link>                     packet in: 8348<Packet> from 8768<AutoRouter>
+5.83s     0044<Link>                     packet out: 6514<Packet> to 0615<AutoRouter>
+5.83s     0615<AutoRouter>               forwarding packet: 6514<Packet> to 9441<Link>
+5.83s     9441<Link>                     packet in: 6514<Packet> from 0615<AutoRouter>
+5.87s     0044<Link>                     packet out: 3392<Packet> to 0615<AutoRouter>
+5.87s     0615<AutoRouter>               forwarding packet: 3392<Packet> to 9441<Link>
+5.87s     9441<Link>                     packet in: 3392<Packet> from 0615<AutoRouter>
+5.95s     0044<Link>                     packet out: 9445<Packet> to 0615<AutoRouter>
+5.95s     0615<AutoRouter>               forwarding packet: 9445<Packet> to 9441<Link>
+5.95s     9441<Link>                     packet in: 9445<Packet> from 0615<AutoRouter>
+6.05s     1870<Link>                     packet out: 6771<Packet> to 8768<AutoRouter>
+6.05s     8768<AutoRouter>               forwarding packet: 6771<Packet> to 0044<Link>
+6.05s     0044<Link>                     packet in: 6771<Packet> from 8768<AutoRouter>
+6.12s     0044<Link>                     packet out: 5237<Packet> to 0615<AutoRouter>
+6.12s     0615<AutoRouter>               forwarding packet: 5237<Packet> to 9441<Link>
+6.12s     9441<Link>                     packet in: 5237<Packet> from 0615<AutoRouter>
+6.20s     0044<Link>                     packet out: 4504<Packet> to 0615<AutoRouter>
+6.20s     0615<AutoRouter>               forwarding packet: 4504<Packet> to 9441<Link>
+6.20s     9441<Link>                     packet in: 4504<Packet> from 0615<AutoRouter>
+6.24s     0044<Link>                     packet out: 2515<Packet> to 0615<AutoRouter>
+6.24s     0615<AutoRouter>               forwarding packet: 2515<Packet> to 9441<Link>
+6.24s     9441<Link>                     packet in: 2515<Packet> from 0615<AutoRouter>
+6.56s     0044<Link>                     packet out: 1759<Packet> to 0615<AutoRouter>
+6.56s     0615<AutoRouter>               forwarding packet: 1759<Packet> to 9441<Link>
+6.56s     9441<Link>                     packet in: 1759<Packet> from 0615<AutoRouter>
+6.69s     0044<Link>                     packet out: 0421<Packet> to 0615<AutoRouter>
+6.69s     0615<AutoRouter>               forwarding packet: 0421<Packet> to 9441<Link>
+6.69s     9441<Link>                     packet in: 0421<Packet> from 0615<AutoRouter>
+6.81s     0044<Link>                     packet out: 5728<Packet> to 0615<AutoRouter>
+6.81s     0615<AutoRouter>               forwarding packet: 5728<Packet> to 9441<Link>
+6.81s     9441<Link>                     packet in: 5728<Packet> from 0615<AutoRouter>
+6.86s     9441<Link>                     packet out: 0613<Packet> to 0494<Host>
+6.86s     0494<Host>                     received packet: 0613<Packet>, forwarding to 2872<PacketSinkService>
+6.86s     2872<PacketSinkService>        received total 512 bytes
+6.93s     0044<Link>                     packet out: 6139<Packet> to 0615<AutoRouter>
+6.93s     0615<AutoRouter>               forwarding packet: 6139<Packet> to 9441<Link>
+6.93s     9441<Link>                     packet in: 6139<Packet> from 0615<AutoRouter>
+6.93s     9441<Link>                     packet out: 5574<Packet> to 0494<Host>
+6.93s     0494<Host>                     received packet: 5574<Packet>, forwarding to 2872<PacketSinkService>
+6.93s     2872<PacketSinkService>        received total 1024 bytes
+6.98s     0044<Link>                     packet out: 8958<Packet> to 0615<AutoRouter>
+6.98s     0615<AutoRouter>               forwarding packet: 8958<Packet> to 9441<Link>
+6.98s     9441<Link>                     packet in: 8958<Packet> from 0615<AutoRouter>
+6.98s     9441<Link>                     packet out: 3511<Packet> to 0494<Host>
+6.98s     0494<Host>                     received packet: 3511<Packet>, forwarding to 2872<PacketSinkService>
+6.98s     2872<PacketSinkService>        received total 1536 bytes
+7.06s     0044<Link>                     packet out: 4160<Packet> to 0615<AutoRouter>
+7.06s     0615<AutoRouter>               forwarding packet: 4160<Packet> to 9441<Link>
+7.06s     9441<Link>                     packet in: 4160<Packet> from 0615<AutoRouter>
+7.23s     0044<Link>                     packet out: 0653<Packet> to 0615<AutoRouter>
+7.23s     0615<AutoRouter>               forwarding packet: 0653<Packet> to 9441<Link>
+7.23s     9441<Link>                     packet in: 0653<Packet> from 0615<AutoRouter>
+7.30s     0044<Link>                     packet out: 8348<Packet> to 0615<AutoRouter>
+7.30s     0615<AutoRouter>               forwarding packet: 8348<Packet> to 9441<Link>
+7.30s     9441<Link>                     packet in: 8348<Packet> from 0615<AutoRouter>
+7.30s     9441<Link>                     packet out: 1200<Packet> to 0494<Host>
+7.30s     0494<Host>                     received packet: 1200<Packet>, forwarding to 2872<PacketSinkService>
+7.30s     2872<PacketSinkService>        received total 2048 bytes
+7.43s     9441<Link>                     packet out: 6514<Packet> to 0494<Host>
+7.43s     0494<Host>                     received packet: 6514<Packet>, forwarding to 2872<PacketSinkService>
+7.43s     2872<PacketSinkService>        received total 2560 bytes
+7.47s     9441<Link>                     packet out: 3392<Packet> to 0494<Host>
+7.47s     0494<Host>                     received packet: 3392<Packet>, forwarding to 2872<PacketSinkService>
+7.47s     2872<PacketSinkService>        received total 3072 bytes
+7.55s     0044<Link>                     packet out: 6771<Packet> to 0615<AutoRouter>
+7.55s     0615<AutoRouter>               forwarding packet: 6771<Packet> to 9441<Link>
+7.55s     9441<Link>                     packet in: 6771<Packet> from 0615<AutoRouter>
+7.55s     9441<Link>                     packet out: 9445<Packet> to 0494<Host>
+7.55s     0494<Host>                     received packet: 9445<Packet>, forwarding to 2872<PacketSinkService>
+7.55s     2872<PacketSinkService>        received total 3584 bytes
+7.72s     9441<Link>                     packet out: 5237<Packet> to 0494<Host>
+7.72s     0494<Host>                     received packet: 5237<Packet>, forwarding to 2872<PacketSinkService>
+7.72s     2872<PacketSinkService>        received total 4096 bytes
+7.79s     9441<Link>                     packet out: 4504<Packet> to 0494<Host>
+7.79s     0494<Host>                     received packet: 4504<Packet>, forwarding to 2872<PacketSinkService>
+7.79s     2872<PacketSinkService>        received total 4608 bytes
+7.84s     9441<Link>                     packet out: 2515<Packet> to 0494<Host>
+7.84s     0494<Host>                     received packet: 2515<Packet>, forwarding to 2872<PacketSinkService>
+7.84s     2872<PacketSinkService>        received total 5120 bytes
+8.16s     9441<Link>                     packet out: 1759<Packet> to 0494<Host>
+8.16s     0494<Host>                     received packet: 1759<Packet>, forwarding to 2872<PacketSinkService>
+8.16s     2872<PacketSinkService>        received total 5632 bytes
+8.29s     9441<Link>                     packet out: 0421<Packet> to 0494<Host>
+8.29s     0494<Host>                     received packet: 0421<Packet>, forwarding to 2872<PacketSinkService>
+8.29s     2872<PacketSinkService>        received total 6144 bytes
+8.41s     9441<Link>                     packet out: 5728<Packet> to 0494<Host>
+8.41s     0494<Host>                     received packet: 5728<Packet>, forwarding to 2872<PacketSinkService>
+8.41s     2872<PacketSinkService>        received total 6656 bytes
+8.53s     9441<Link>                     packet out: 6139<Packet> to 0494<Host>
+8.53s     0494<Host>                     received packet: 6139<Packet>, forwarding to 2872<PacketSinkService>
+8.53s     2872<PacketSinkService>        received total 7168 bytes
+8.58s     9441<Link>                     packet out: 8958<Packet> to 0494<Host>
+8.58s     0494<Host>                     received packet: 8958<Packet>, forwarding to 2872<PacketSinkService>
+8.58s     2872<PacketSinkService>        received total 7680 bytes
+8.66s     9441<Link>                     packet out: 4160<Packet> to 0494<Host>
+8.66s     0494<Host>                     received packet: 4160<Packet>, forwarding to 2872<PacketSinkService>
+8.66s     2872<PacketSinkService>        received total 8192 bytes
+8.83s     9441<Link>                     packet out: 0653<Packet> to 0494<Host>
+8.83s     0494<Host>                     received packet: 0653<Packet>, forwarding to 2872<PacketSinkService>
+8.83s     2872<PacketSinkService>        received total 8704 bytes
+8.90s     9441<Link>                     packet out: 8348<Packet> to 0494<Host>
+8.90s     0494<Host>                     received packet: 8348<Packet>, forwarding to 2872<PacketSinkService>
+8.90s     2872<PacketSinkService>        received total 9216 bytes
+9.15s     9441<Link>                     packet out: 6771<Packet> to 0494<Host>
+9.15s     0494<Host>                     received packet: 6771<Packet>, forwarding to 2872<PacketSinkService>
+9.15s     2872<PacketSinkService>        received total 9728 bytes
+No memory leak detected.

@@ -11,11 +11,12 @@ class EchoService : public Service {
   friend class EchoServiceInstaller;
 
 private:
+  virtual std::string name() { return "EchoService"; }
   EchoService(Host *host, short port) : Service(host, port) {}
-  
+
   // 받은 메시지를 출력한다.
   std::string receive_info_message(std::string src_address, short src_port, std::string message){
-    return "EchoService: received \""+message+"\" from "+src_address+":"+std::to_string(src_port)+", send reply with same data";
+    return "received \""+message+"\" from "+src_address+":"+std::to_string(src_port)+", send reply with same data";
   }
 
 public:

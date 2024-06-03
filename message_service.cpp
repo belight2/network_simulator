@@ -6,10 +6,11 @@ void MessageService::send(std::string message){
 }
 
 void MessageService::send(Packet *packet){
-  host_->send(packet);
+  this->host_->send(packet);
 }
 
 void MessageService::receive(Packet *packet){
-  std::cout << receive_info_message(packet->srcAddress().toString(), packet->srcPort(), packet->dataString()) << std::endl;
+  std::string message = receive_info_message(packet->srcAddress().toString(), packet->srcPort(), packet->dataString());
+  Object::log(message);
   delete packet;
 }
