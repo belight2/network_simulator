@@ -9,8 +9,6 @@
 #include <string>
 #include <vector>
 
-#include "../auto_router.h"
-
 #define COUNT 3
 
 #define SERVER_ADDRESS_START 123
@@ -20,10 +18,9 @@
 
 int main() {
   Simulator::prepare();
-
   std::vector<Host *> servers;
   std::vector<Host *> clients;
-  
+
   for (int i = 0; i < COUNT; i++) {
     servers.push_back(new Host(SERVER_ADDRESS_START + i));
     clients.push_back(new Host(CLIENT_ADDRESS_START + i));
@@ -69,11 +66,6 @@ int main() {
     router->addRoutingEntry(clients[i]->address(), clientLinks[i]);
   }
 
-  for (int i = 0; i < COUNT; i++) {
-    clients[i]->initialize();
-    servers[i]->initialize();
-  }
-
   for (int x = 0; x < 3; x++) {
     for (size_t i = 0; i < messageServices.size(); i++) {
       Simulator::schedule(
@@ -84,18 +76,4 @@ int main() {
   }
 
   Simulator::run();
-
-  for (int i = 0; i < COUNT; i++) {
-    delete servers[i];
-    delete clients[i];
-  }
-
-  delete router;
-
-  for (int i = 0; i < COUNT; i++) {
-    delete serverLinks[i];
-    delete clientLinks[i];
-  }
-
-  Object::checkMemoryLeak();
 }

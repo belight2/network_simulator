@@ -11,7 +11,6 @@
 
 class Host : public Node {
   friend class ServiceInstaller;
-
 private:
   // 호스트의 주소
   Address address_;
@@ -46,11 +45,13 @@ public:
   // 호스트 생성자
   Host(Address address) : address_(address) {}
 
+  Host(std::string address) : address_(Address(address)) {}
+
   // 호스트 소멸자
   ~Host() override;
 
   // 호스트와 설치된 서비스를 전부 초기화한다.
-  void initialize();
+  virtual void initialize() override;
 
   // 링크를 랜덤으로 하나 선택하여 패킷을 전송한다.
   void send(Packet *packet) override;

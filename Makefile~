@@ -1,8 +1,8 @@
 CC = g++
 CFLAGS = -g -Wall -Werror -std=c++11
-OBJECTS = simulator.o object.o echo_service.o host.o link.o message_service.o router.o bulk_send_service.o packet_sink_service.o 
+OBJECTS = simulator.o object.o echo_service.o host.o link.o message_service.o router.o bulk_send_service.o packet_sink_service.o nat.o auto_router.o
 
-all: first second third forth
+all: first second third forth fifth
 
 first: first.o $(OBJECTS)
 		$(CC) $(CFLAGS) -o first first.o $(OBJECTS)
@@ -16,6 +16,9 @@ third: third.o $(OBJECTS)
 forth: forth.o $(OBJECTS)
 		$(CC) $(CFLAGS) -o forth forth.o $(OBJECTS)
 
+fifth: fifth.o $(OBJECTS)
+		$(CC) $(CFLAGS) -o fifth fifth.o $(OBJECTS)
+
 first.o: scenarios/first.cpp
 		$(CC) $(CFLAGS) -c scenarios/first.cpp
 
@@ -27,6 +30,9 @@ third.o: scenarios/third.cpp
 
 forth.o: scenarios/forth.cpp
 		$(CC) $(CFLAGS) -c scenarios/forth.cpp
+
+fifth.o: scenarios/fifth.cpp
+		$(CC) $(CFLAGS) -c scenarios/fifth.cpp
 
 simulator.o: simulator.cpp
 		$(CC) $(CFLAGS) -c simulator.cpp
@@ -42,8 +48,12 @@ host.o: host.cpp
 
 link.o: link.cpp
 		$(CC) $(CFLAGS) -c link.cpp
+
 router.o: router.cpp
 		$(CC) $(CFLAGS) -c router.cpp
+
+nat.o: nat.cpp
+		$(CC) $(CFLAGS) -c nat.cpp
 
 message_service.o: message_service.cpp
 		$(CC) $(CFLAGS) -c message_service.cpp
@@ -53,5 +63,8 @@ packet_sink_service.o: packet_sink_service.cpp
 
 bulk_send_service.o: bulk_send_service.cpp
 		$(CC) $(CFLAGS) -c bulk_send_service.cpp
+
+auto_router.o: auto_router.cpp
+		$(CC) $(CFLAGS) -c auto_router.cpp
 clean:
-		del -f *.o first second third forth
+		del -f *.o *.exe

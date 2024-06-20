@@ -24,6 +24,7 @@ private:
 public:
   void send(Packet *packet) override;
   void receive(Packet *packet) override; 
+  virtual void initialize() override;
 };
 
 #endif

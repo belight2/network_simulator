@@ -17,6 +17,7 @@ public:
   // 이제 형변환없이 반환가능
   std::string toString() const { return address_; }
   bool operator==(const Address &rhs) const { return address_ == rhs.address_; }
+  bool operator!=(const Address &rhs) const { return address_ != rhs.address_; }
 };
 
 #endif

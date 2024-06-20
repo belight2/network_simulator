@@ -25,6 +25,8 @@ void Host::send(Packet *packet){
 }
 
 void Host::receive(Packet *packet){
+  // 목적지 경로가 아니면 아무 작업도 하지 않음.
+  if(this->address() != packet->destAddress()) return;
   std::string message;
   for(Service *service : services_){
     // 서비스의 포트와 패킷의 목적지 포트가 맞는 서비스를 찾았음
@@ -44,5 +46,5 @@ void Host::receive(Packet *packet){
   message = no_service_info_message(packet);
   Object::log(message);
   // 패킷을 폐기함
-  delete packet;
+  // delete packet;
 }

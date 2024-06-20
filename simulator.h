@@ -51,16 +51,7 @@ public:
     schedule_queue.push(Schedule(time, function));
   }
 
-  static void run() {
-    // 모든 스케줄을 실행한다.
-    // TODO: 구현
-    while(!schedule_queue.empty()){
-      auto current_schedule = schedule_queue.top();
-      schedule_queue.pop();
-      time_ = current_schedule.time();
-      current_schedule.call();
-    }
-  }
+  static void run();
 };
 
 #endif
