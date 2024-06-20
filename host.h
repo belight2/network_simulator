@@ -44,7 +44,7 @@ public:
   
   // 호스트 생성자
   Host(Address address) : address_(address) {}
-
+  Host(int address) : address_(Address(address)) {}
   Host(std::string address) : address_(Address(address)) {}
 
   // 호스트 소멸자
